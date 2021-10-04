@@ -8,7 +8,7 @@ const About = () => {
         /* the intructor details showed using bootstrap card*/
         <div>
             <Container className="py-4">
-                <h1 className="text-dark pb-3">Courses</h1>
+                <h1 className="text-dark pb-3">About Lecturer</h1>
                 <Row xs={1} md={4} className="g-3">
                         {
                         courses.map(course => <Col key={course.id}>
