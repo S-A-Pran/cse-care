@@ -50,7 +50,7 @@ const Faq = () => {
                         Watch the footer of our site. email: csecare@gmail.com. phone: 017777777
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="6">
+                    <Accordion.Item eventKey="7">
                         <Accordion.Header>When the course will start?</Accordion.Header>
                         <Accordion.Body>
                         Just buy ans start today. Our instructors are ready to serve you.
