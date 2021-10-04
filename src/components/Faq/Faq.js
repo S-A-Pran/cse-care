@@ -1,12 +1,16 @@
 import React from 'react';
 import { Accordion, Container } from 'react-bootstrap';
-
+import faq from "../../faq.jpg";
 const Faq = () => {
     return (
         <div>
             {/* using bootstrap accordian faq designed */}
             <Container>
                 <h1 className="text-dark py-4">Frequently Asked Question</h1>
+                <div className="d-flex pb-5">
+                <div className="text-center">
+                    <img src={faq} alt="" />
+                </div> 
                 <Accordion className="py-4 w-75 m-auto">
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>What about Routin?</Accordion.Header>
@@ -57,6 +61,7 @@ const Faq = () => {
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
+                </div>
             </Container>
         </div>
     );
