@@ -3,6 +3,8 @@ const courses = [
         id: 1,
         name: "Computer Fundamental",
         duration: "4 month",
+        enrolled: 1200,
+        star: 4.3,
         Instructor: {
             name:"A. Chowdhury",
             designation:"Associate Professor",
@@ -27,6 +29,8 @@ const courses = [
         id: 2,
         name: "C Programming",
         duration: "4 month",
+        enrolled: 1500,
+        star: 4.7,
         Instructor: {
             name:"M. Hasnat",
             designation:"Associate Professor",
@@ -51,6 +55,8 @@ const courses = [
         id: 3,
         name: "Data Structure",
         duration: "4 month",
+        enrolled: 800,
+        star: 4.4,
         Instructor: {
             name:"K. Firoz",
             designation:"Associate Professor",
@@ -75,6 +81,8 @@ const courses = [
         id: 4,
         name: "Algorithm",
         duration: "4 month",
+        enrolled: 2310,
+        star: 4.8,
         Instructor: {
             name:"A. Mahmud",
             designation:"Associate Professor",
@@ -99,6 +107,8 @@ const courses = [
         id: 5,
         name: "Discreate Mathmatics",
         duration: "4 month",
+        enrolled: 1350,
+        star: 4,
         Instructor: {
             name:"D. Goswami",
             designation:"Associate Professor",
@@ -123,6 +133,8 @@ const courses = [
         id: 6,
         name: "JAVA",
         duration: "4 month",
+        enrolled: 950,
+        star: 4.2,
         Instructor: {
             name:"A. Prioti",
             designation:"Associate Professor",
@@ -147,6 +159,8 @@ const courses = [
         id: 7,
         name: "Networking",
         duration: "4 month",
+        enrolled: 1876,
+        star: 4.5,
         Instructor: {
             name:"I. Hossen",
             designation:"Associate Professor",
@@ -171,6 +185,8 @@ const courses = [
         id: 8,
         name: "Microprocessor & Assembly",
         duration: "4 month",
+        enrolled: 1632,
+        star: 4.1,
         Instructor: {
             name:"S. Rahman",
             designation:"Associate Professor",
@@ -195,6 +211,8 @@ const courses = [
         id: 9,
         name: "Database",
         duration: "4 month",
+        enrolled: 789,
+        star: 4.6,
         Instructor: {
             name:"R. Islam",
             designation:"Associate Professor",
@@ -219,6 +237,8 @@ const courses = [
         id: 10,
         name: "Compiler Design",
         duration: "4 month",
+        enrolled: 3300,
+        star: 5,
         Instructor: {
             name:"A. Mahmud",
             designation:"Associate Professor",
@@ -243,6 +263,8 @@ const courses = [
         id: 11,
         name: "Data Mining ",
         duration: "4 month",
+        enrolled: 4520,
+        star: 5,
         Instructor: {
             name:"A. Ankon",
             designation:"Associate Professor",
@@ -267,6 +289,8 @@ const courses = [
         id: 12,
         name: "Computer Graphics",
         duration: "4 month",
+        enrolled: 3690,
+        star: 4.9,
         Instructor: {
             name:"E. Khatun",
             designation:"Associate Professor",
