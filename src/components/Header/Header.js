@@ -13,7 +13,7 @@ const Header = () => {
                     </NavLink>
                 <Nav className="ms-auto">
                     <NavLink activeStyle={{fontWeight: "bold",color: "red"}} className="text-decoration-none text-white fs-4 pe-5" to="/home">Home</NavLink>
-                    <NavLink activeStyle={{fontWeight: "bold",color: "white"}} className="text-decoration-none text-white fs-4 pe-5" to="/services">Services</NavLink>
+                    <NavLink activeStyle={{fontWeight: "bold",color: "white"}} className="text-decoration-none text-white fs-4 pe-5" to="/services">Courses</NavLink>
                     <NavLink activeStyle={{fontWeight: "bold",color: "white"}} className="text-decoration-none text-white fs-4 pe-5" to="/Faq">Faq</NavLink>
                     <NavLink activeStyle={{fontWeight: "bold",color: "white"}} className="text-decoration-none text-white fs-4" to="/About">About</NavLink>
                 </Nav>
